@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/pessoa")
-@CrossOrigin("https://app-api-teste-java.herokuapp.com/")
+@CrossOrigin("*")
 public class PessoaController {
 
     @Autowired
