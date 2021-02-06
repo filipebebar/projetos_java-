@@ -3,7 +3,6 @@ package br.com.filipe.teste.filipe_teste.controller;
 import br.com.filipe.teste.filipe_teste.model.Pessoa;
 import br.com.filipe.teste.filipe_teste.repository.PessoaRepository;
 import br.com.filipe.teste.filipe_teste.utilidades.Utilidades;
-import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/pessoa")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://app-api-teste-java.herokuapp.com/")
 public class PessoaController {
 
     @Autowired
