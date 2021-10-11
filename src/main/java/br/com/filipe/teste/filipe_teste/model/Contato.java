@@ -17,13 +17,13 @@ public class Contato {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false, length = 120)
+    @Column(nullable = false, length = 200)
     private String nome;
 
     @Column(nullable = false, length = 20)
     private String telefone;
 
-    @Column(nullable = false, length = 120)
+    @Column(nullable = false, length = 200)
     private String email;
 
     @ManyToOne
